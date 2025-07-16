@@ -995,6 +995,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ProtocolType: 0
+  m_UseWebSockets: 0
+  m_UseEncryption: 0
   m_MaxPacketQueueSize: 128
   m_MaxPayloadSize: 6144
   m_HeartbeatTimeoutMS: 500
@@ -3309,6 +3311,76 @@ MonoBehaviour:
           DisplayName: 
         memberName: NetworkMetrics
         _editorSelectedGizmoIndex: 0
+      - enabled: 0
+        typeName: Unity.Netcode.Transports.UTP.UnityTransport, Unity.Netcode.Runtime,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        attribute:
+          GizmoType: 0
+          ShowGizmoByDefault: 0
+          Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+          Tweakable: 0
+          Min: 0
+          Max: 1
+          Category: 
+          DisplayName: 
+        memberName: ConfigureSimulatorForUtp2
+        _editorSelectedGizmoIndex: 0
+      - enabled: 0
+        typeName: Unity.Netcode.Transports.UTP.UnityTransport, Unity.Netcode.Runtime,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        attribute:
+          GizmoType: 0
+          ShowGizmoByDefault: 0
+          Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+          Tweakable: 0
+          Min: 0
+          Max: 1
+          Category: 
+          DisplayName: 
+        memberName: UseWebSockets
+        _editorSelectedGizmoIndex: 0
+      - enabled: 0
+        typeName: Unity.Netcode.Transports.UTP.UnityTransport, Unity.Netcode.Runtime,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        attribute:
+          GizmoType: 0
+          ShowGizmoByDefault: 0
+          Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+          Tweakable: 0
+          Min: 0
+          Max: 1
+          Category: 
+          DisplayName: 
+        memberName: UseEncryption
+        _editorSelectedGizmoIndex: 0
+      - enabled: 0
+        typeName: Unity.Netcode.Transports.UTP.UnityTransport, Unity.Netcode.Runtime,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        attribute:
+          GizmoType: 0
+          ShowGizmoByDefault: 0
+          Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+          Tweakable: 0
+          Min: 0
+          Max: 1
+          Category: 
+          DisplayName: 
+        memberName: m_UseWebSockets
+        _editorSelectedGizmoIndex: 0
+      - enabled: 0
+        typeName: Unity.Netcode.Transports.UTP.UnityTransport, Unity.Netcode.Runtime,
+          Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        attribute:
+          GizmoType: 0
+          ShowGizmoByDefault: 0
+          Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+          Tweakable: 0
+          Min: 0
+          Max: 1
+          Category: 
+          DisplayName: 
+        memberName: m_UseEncryption
+        _editorSelectedGizmoIndex: 0
 --- !u!1 &122326117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4676,10 +4748,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnOnStart: 1
-  MeshMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  MeshMaterial: {fileID: 2100000, guid: e08b2be810975124c992886a7b1491f0, type: 2}
   BorderSize: 0
   Colliders: 1
-  CutHoles: 0
+  CutHoles: 49151
   castShadows: 1
   hideMesh: 0
   Layer: 0
