@@ -16,7 +16,7 @@ MonoBehaviour:
   - AssemblyName: Assembly-CSharp
     DebugTypes:
     - ColocatedAreaSetup
-  immersiveDebuggerEnabled: 0
+  immersiveDebuggerEnabled: 1
   immersiveDebuggerDisplayAtStartup: 1
   immersiveDebuggerToggleDisplayButton: 2
   showInspectors: 1
